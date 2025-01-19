@@ -1,0 +1,32 @@
+/* colors */
+$color__green:#6FBE44;
+$color__light-black:#3E3C3C;
+$color__white:#fff;
+$color__dark-white:#F6F9FB;
+$color__black:#000;
+/*  */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    ul{
+        list-style-type: none;
+    }
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+.wrapper{
+    padding: 0 58px 0 49px;
+    @media(max-width:1199px){
+        padding:0 20px;
+      }
+      @media(max-width:375px){
+        padding:0 15px;
+      }
+}
